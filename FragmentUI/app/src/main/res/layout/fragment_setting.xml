@@ -31,10 +31,17 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="File:"
+                android:textSize="16sp" />
+
+            <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="kmer: "
+                android:text="k-mer size:"
                 android:textSize="16sp" />
 
             <EditText
@@ -48,7 +55,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Memory size: "
+                android:text="max memory(mb): "
                 android:textSize="16sp" />
 
             <EditText
@@ -59,18 +66,25 @@
                 android:inputType="number" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Files:"
+                android:text="max disk(mb):"
                 android:textSize="16sp" />
 
-            <EditText
-                android:id="@+id/editText6"
+            <TextView
+                android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="phone" />
+                android:text="minimizer type:"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="repartition type:"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -80,14 +94,6 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <EditText
-                android:id="@+id/editText7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
-
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
@@ -96,21 +102,6 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <EditText
-                android:id="@+id/editText8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
-
-            <EditText
-                android:id="@+id/editText10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textEmailAddress" />
-
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
@@ -118,14 +109,6 @@
                 android:text="Debug Options"
                 android:textSize="20sp"
                 android:textStyle="bold" />
-
-            <EditText
-                android:id="@+id/editText9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
 
         </LinearLayout>
     </ScrollView>
